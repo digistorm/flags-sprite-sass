@@ -1,5 +1,5 @@
 {
-    "name": "flags-sprite",
+    "name": "flags-sprite-sass",
     "version": "1.1.0",
     "main": "dist/flags.css",
     "keywords": ["flags"],
