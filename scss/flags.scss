@@ -1,9 +1,11 @@
+$flags-img-path: url("flags.png") !default;
+
 .flag {
   display: inline-block;
   width: 16px;
   height: 11px;
   margin-right: 5px;
-  background: image-url("flags.png") no-repeat;
+  background: $flags-img-path no-repeat !default;
   &.flag-ad {
     background-position: -16px 0;
   }
