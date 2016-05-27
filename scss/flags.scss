@@ -5,7 +5,7 @@ $flags-img-path: url("flags.png") !default;
   width: 16px;
   height: 11px;
   margin-right: 5px;
-  background: $flags-img-path no-repeat !default;
+  background: $flags-img-path no-repeat;
   &.flag-ad {
     background-position: -16px 0;
   }
